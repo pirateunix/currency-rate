@@ -1,0 +1,27 @@
+{
+  "name": "pirate/currency-rate",
+  "type": "library",
+  "require-dev": {
+    "phpunit/phpunit": "^5.5"
+  },
+  "authors": [
+    {
+      "name": "Dmitrii Savelev",
+      "email": "savelev.nsk@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Currency\\": "src/",
+      "Currency\\Exception\\": "src/Exception/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Currency\\Test\\": "tests"
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^6.3"
+  }
+}
